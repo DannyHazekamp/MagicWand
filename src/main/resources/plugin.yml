@@ -1,0 +1,8 @@
+name: MagicWand
+version: '1.0-SNAPSHOT'
+main: me.Danny.magicWand.MagicWand
+api-version: '1.21'
+commands:
+  magicwand:
+    description: Gives the player a magic wand
+    usage: /magicwand

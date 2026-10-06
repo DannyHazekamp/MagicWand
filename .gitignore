@@ -1,0 +1,47 @@
+# Build output (Maven)
+target/
+dependency-reduced-pom.xml
+
+# Build output (Gradle)
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Compiled files
+*.class
+*.jar
+*.war
+
+# Logs
+*.log
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# VS Code
+.vscode/
+
+# NetBeans
+nbproject/
+
+# OS-bestanden
+.DS_Store
+Thumbs.db
+
+# Lokale test-server (als je die in de projectmap draait)
+run/
+server/
+test-server/
+
+# Gevoelige of lokale configuratie
+.env
+local.properties
